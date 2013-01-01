@@ -10,17 +10,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scrollkeeper.HEAD.sk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-06 19:22+1100\n"
+"POT-Creation-Date: 2012-12-27 22:58+0200\n"
 "PO-Revision-Date: 2003-01-23 23:06+0100\n"
 "Last-Translator: Stanislav Visnovsky <visnovsky@kde.org>\n"
 "Language-Team: Slovak <sk-i18n@linux.sk>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.2\n"
 
 #: cl/src/scrollkeeper-install.c:36
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Usage: scrollkeeper-install [-n] [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -43,7 +44,7 @@ msgid "Unable to register %s\n"
 msgstr "Nepodarilo sa registrova» %s\n"
 
 #: cl/src/preinstall.c:34
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Usage: scrollkeeper-preinstall [-n] <DOC FILE> <OMF FILE> <NEW OMF FILE>\n"
 msgstr ""
@@ -56,6 +57,7 @@ msgstr ""
 "Aktualizácia URL v súbore OMF %s zlyhala. Kopírovanie súboru OMF nezmenené.\n"
 
 #: cl/src/scrollkeeper-uninstall.c:32
+#, c-format
 msgid ""
 "Usage: scrollkeeper-uninstall [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -156,8 +158,8 @@ msgstr "Chyba pri overení OMF: %s"
 msgid ""
 "TOC file does not exist, is not readable, or is not well-formed XML: %s\n"
 msgstr ""
-"Súbor s obsahom neexistuje, nedá sa preèíta» alebo obsahuje neplatné XML: %"
-"s\n"
+"Súbor s obsahom neexistuje, nedá sa preèíta» alebo obsahuje neplatné XML: "
+"%s\n"
 
 #: libs/install.c:177
 #, c-format
@@ -230,22 +232,27 @@ msgid "Could not create directory %s : %s\n"
 msgstr "Nepodarilo sa vytvori» prieèinok %s: %s\n"
 
 #: libs/update-url.c:40
+#, c-format
 msgid "OMF file was not well-formed.\n"
 msgstr "Súbor OMG nie je správne formátovaný.\n"
 
 #: libs/update-url.c:48
+#, c-format
 msgid "Could not find root element of OMF file.\n"
 msgstr "Nepodarilo sa nájs» koreòový element súboru OMF.\n"
 
 #: libs/update-url.c:52
+#, c-format
 msgid "Root element of OMF file is not <omf>.\n"
 msgstr "Koreòový element súboru OMF nie je <omf>.\n"
 
 #: libs/update-url.c:64
+#, c-format
 msgid "OMF file does not have <resource> element.\n"
 msgstr "Súbor OMG neobsahuje element <resource>.\n"
 
 #: extract/src/scrollkeeper-extract.c:30
+#, c-format
 msgid ""
 "Usage: scrollkeeper-extract <xml file> <stylesheet 1> <output file 1> "
 "<stylesheet 2> <output file 2> ...\n"
@@ -259,767 +266,771 @@ msgid "Unrecognized file type: %s\n"
 msgstr "Nerozpoznaný typ súboru: %s\n"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:1
-msgid "3D Modelling"
-msgstr "3D Modelovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:2
-msgid "3D Rendering"
-msgstr "3D Renderovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:3
-msgid "ADA"
-msgstr "ADA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:4
-msgid "Accessibility"
-msgstr "Prístupnos»"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:5
-msgid "Accessories"
-msgstr "Príslu¹enstvo"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:6
-msgid "Administration"
-msgstr "Administrácia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:7
-msgid "Amusement"
-msgstr "Zábava"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:8
-msgid "Analysis"
-msgstr "Analýza"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:9
-msgid "AppleTalk"
-msgstr "AppleTalk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:10
-msgid "Applets"
-msgstr "Aplety"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:11
 msgid "Applications"
 msgstr "Aplikácie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:12
-msgid "Arcade"
-msgstr "Arkády"
+#: cl/templates/scrollkeeper_cl.xml.in.h:2
+msgid "Amusement"
+msgstr "Zábava"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:13
-msgid "Archiving"
-msgstr "Archivácia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:14
-msgid "Arts"
-msgstr "Umenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:15
-msgid "Astronomy"
-msgstr "Astronómia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:16
-msgid "Astrophysics"
-msgstr "Astrofyzika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:17
-msgid "BIND"
-msgstr "BIND"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:18
-msgid "Backups"
-msgstr "Zálohovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:19
-msgid "Biology"
-msgstr "Biológia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:20
-msgid "Board"
-msgstr "Stolové"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:21
-msgid "Build Tools"
-msgstr "Preklad"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:22
-msgid "C"
-msgstr "C"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:23
-msgid "C++"
-msgstr "C++"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:24
-msgid "CAD"
-msgstr "CAD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:25
-msgid "CD Mastering"
-msgstr "Vytváranie CD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:26
-msgid "CDE"
-msgstr "CDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:27
-msgid "CLI"
-msgstr "Príkazový riadok"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:28
-msgid "Calculating"
-msgstr "Výpoèty"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:29
-msgid "Caldera"
-msgstr "Caldera"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:30
-msgid "Calendar"
-msgstr "Kalendár"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:31
-msgid "Capture"
-msgstr "Zachytávanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:32
-msgid "Chat"
-msgstr "Chat"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:33
-msgid "Chemistry"
-msgstr "Chémia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:34
-msgid "Clock"
-msgstr "Hodiny"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:35
-msgid "Clocks"
-msgstr "Hodiny"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:36
-msgid "Code Generators"
-msgstr "Generátory kódu"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:37
-msgid "Compression"
-msgstr "Kompresia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:38
-msgid "Computer Science"
-msgstr "Informatika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:39
-msgid "Config Files"
-msgstr "Konfiguraèné súbory"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:40
-msgid "Configuration"
-msgstr "Nastavenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:41
-msgid "Configuration Tools"
-msgstr "Konfiguraèné nástroje"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:42
-msgid "Conversion"
-msgstr "Prevod"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:43
-msgid "Core Desktop"
-msgstr "Základné prostredie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:44
-msgid "Cryptography"
-msgstr "Kryptografia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:45
-msgid "DNS"
-msgstr "DNS"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:46
-msgid "Data Processing"
-msgstr "Spracovanie dát"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:47
-msgid "Database"
-msgstr "Databáza"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:48
-msgid "Databases"
-msgstr "Databáze"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:49
-msgid "Debian"
-msgstr "Debian"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:50
-msgid "Debuggers"
-msgstr "Odlaïovaèe"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:51
-msgid "Desktop"
-msgstr "Plocha"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:52
-msgid "Desktop Preferences"
-msgstr "Nastavenie plochy"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:53
-msgid "Development"
-msgstr "Vývoj"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:54
-msgid "Development Tools"
-msgstr "Vývojové nástroje"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:55
-msgid "Display"
-msgstr "Prehrávanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:56
-msgid "Distributions"
-msgstr "Distribúcie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:57
-msgid "Drawing"
-msgstr "Kreslenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:58
-msgid "EDA"
-msgstr "EDA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:59
-msgid "Editing"
-msgstr "Úprava"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:60
+#: cl/templates/scrollkeeper_cl.xml.in.h:3
 msgid "Education"
 msgstr "Výuka"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:61
-msgid "Email"
-msgstr "E-mail"
+#: cl/templates/scrollkeeper_cl.xml.in.h:4
+msgid "Arts"
+msgstr "Umenie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:62
+#: cl/templates/scrollkeeper_cl.xml.in.h:5
+msgid "Computer Science"
+msgstr "Informatika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:6
 msgid "English"
 msgstr "Angliètina"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:63
-msgid "Environments"
-msgstr "Prostredia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:64
-msgid "FTP"
-msgstr "FTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:65
-msgid "Fax"
-msgstr "Fax"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:66
-msgid "Fighting"
-msgstr "Bojové"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:67
-msgid "File Sharing"
-msgstr "Sdieµanie súborov"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:68
-msgid "File Utilities"
-msgstr "Nástroje pre súbory"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:69
-msgid "Filesystems"
-msgstr "Systémy súborov"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:70
-msgid "Financial"
-msgstr "Finanèné"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:71
-msgid "Firewall"
-msgstr "Firewall"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:72
-msgid "First Person Shooters"
-msgstr "Strieµaèky"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:73
-msgid "Fonts"
-msgstr "Písma"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:74
-msgid "FreeBSD"
-msgstr "FreeBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:75
-msgid "GNOME"
-msgstr "GNOME"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:76
-msgid "GTK+"
-msgstr "GTK+"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:77
-msgid "GUI"
-msgstr "Grafické"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:78
-msgid "Games"
-msgstr "Hry"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:79
-msgid "General"
-msgstr "V¹eobecné"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:80
-msgid "Genetics"
-msgstr "Genetika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:81
-msgid "Graphics"
-msgstr "Grafika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:82
-msgid "HTTP"
-msgstr "HTTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:83
-msgid "Hardware"
-msgstr "Hardvér"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:84
-msgid "IDEs"
-msgstr "IDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:85
-msgid "Input Devices"
-msgstr "Vstupné zariadenia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:86
-msgid "Internet"
-msgstr "Internet"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:87
-msgid "Internet Phone"
-msgstr "Internetový telefón"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:88
-msgid "Introductory"
-msgstr "Úvody"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:89
-msgid "Intrusion Detection"
-msgstr "Detekcia prieniku"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:90
-msgid "Java"
-msgstr "Java"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:91
-msgid "KDE"
-msgstr "KDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:92
-msgid "Kernels"
-msgstr "Kernely"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:93
+#: cl/templates/scrollkeeper_cl.xml.in.h:7
 msgid "Language"
 msgstr "Jazyk"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:94
-msgid "Libraries"
-msgstr "Kni¾nice"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:95
-msgid "Licenses"
-msgstr "Licencie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:96
-msgid "Linux"
-msgstr "Linux"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:97
-msgid "Local"
-msgstr "Lokálne"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:98
-msgid "Login Managers"
-msgstr "Správcovia prihlásenia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:99
-msgid "MIDI"
-msgstr "MIDI"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:100
-msgid "Mandrake"
-msgstr "Mandrake"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:101
-msgid "Math"
-msgstr "Matematika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:102
+#: cl/templates/scrollkeeper_cl.xml.in.h:8
 msgid "Maths"
 msgstr "Matematika"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:103
-msgid "Messaging"
-msgstr "Messaging"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:104
-msgid "Mixers"
-msgstr "Mixovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:105
-msgid "Monitors"
-msgstr "Monitory"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:106
-msgid "Multimedia"
-msgstr "Multimédia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:107
+#: cl/templates/scrollkeeper_cl.xml.in.h:9
 msgid "Music"
 msgstr "Hudba"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:108
-msgid "NetBSD"
-msgstr "NetBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:109
-msgid "Network"
-msgstr "Sie»"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:110
-msgid "Networking"
-msgstr "Siet"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:111
-msgid "News"
-msgstr "Diskusné skupiny"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:112
-msgid "Office"
-msgstr "Kancelária"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:113
-msgid "Other"
-msgstr "Iné"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:114
-msgid "PCI/ISA/PCMCIA"
-msgstr "PCI/ISA/PCMCIA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:115
-msgid "PIM"
-msgstr "PIM"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:116
-msgid "PPP"
-msgstr "PPP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:117
-msgid "Package Management"
-msgstr "Správa balíkov"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:118
-msgid "Packaging"
-msgstr "Balenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:119
-msgid "Perl"
-msgstr "Perl"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:120
-msgid "Physics"
-msgstr "Fyzika"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:121
-msgid "Players"
-msgstr "Prehrávaèe"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:122
-msgid "Plotting"
-msgstr "Kreslenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:123
-msgid "Preferences"
-msgstr "Nastavenie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:124
-msgid "Presentation"
-msgstr "Prezentácia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:125
-msgid "Printing"
-msgstr "Tlaè"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:126
-msgid "Processor"
-msgstr "Procesor"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:127
-msgid "Profiling"
-msgstr "Profilovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:128
-msgid "Programming"
-msgstr "Programovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:129
-msgid "Programs"
-msgstr "Programy"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:130
-msgid "Publishing"
-msgstr "Publikovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:131
-msgid "Puzzles"
-msgstr "Hlavolamy"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:132
-msgid "Python"
-msgstr "Python"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:133
-msgid "Qt"
-msgstr "Qt"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:134
-msgid "RAD"
-msgstr "RAD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:135
-msgid "Recording"
-msgstr "Nahrávanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:136
-msgid "Red Flag"
-msgstr "Red Flag"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:137
-msgid "Red Hat"
-msgstr "Red Hat"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:138
-msgid "Remote"
-msgstr "Vzdialené"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:139
-msgid "Role-Playing"
-msgstr "Adventúry"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:140
-msgid "SMB"
-msgstr "SMB"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:141
-msgid "SSH"
-msgstr "SSH"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:142
+#: cl/templates/scrollkeeper_cl.xml.in.h:10
 msgid "Science"
 msgstr "Veda"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:143
-msgid "Scientific"
-msgstr "Veda"
+#: cl/templates/scrollkeeper_cl.xml.in.h:11
+msgid "Technology"
+msgstr "Technológie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:144
-msgid "Screensavers"
-msgstr "©etrièe obrazovky"
+#: cl/templates/scrollkeeper_cl.xml.in.h:12
+msgid "Testing"
+msgstr "Testovanie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:145
-msgid "Security"
-msgstr "Zabezpeèenie"
+#: cl/templates/scrollkeeper_cl.xml.in.h:13
+msgid "Other"
+msgstr "Iné"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:146
-msgid "Services"
-msgstr "Slu¾by"
+#: cl/templates/scrollkeeper_cl.xml.in.h:14
+msgid "Games"
+msgstr "Hry"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:147
-msgid "Settings"
-msgstr "Nastavenie"
+#: cl/templates/scrollkeeper_cl.xml.in.h:15
+msgid "Arcade"
+msgstr "Arkády"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:148
+#: cl/templates/scrollkeeper_cl.xml.in.h:16
+msgid "Board"
+msgstr "Stolové"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:17
+msgid "First Person Shooters"
+msgstr "Strieµaèky"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:18
+msgid "Puzzles"
+msgstr "Hlavolamy"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:19
+msgid "Fighting"
+msgstr "Bojové"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:20
+msgid "Role-Playing"
+msgstr "Adventúry"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:21
 msgid "Simulation"
 msgstr "Simulácie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:149
-msgid "Slackware"
-msgstr "Slackware"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:150
-msgid "Sound"
-msgstr "Zvuk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:151
-msgid "Sound and Video"
-msgstr "Zvuk a video"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:152
-msgid "Speech"
-msgstr "Reè"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:153
-msgid "Storage"
-msgstr "Disky"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:154
+#: cl/templates/scrollkeeper_cl.xml.in.h:22
 msgid "Strategy"
 msgstr "Stratégie"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:155
+#: cl/templates/scrollkeeper_cl.xml.in.h:23
+msgid "Internet"
+msgstr "Internet"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:24
+msgid "Chat"
+msgstr "Chat"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:25
+msgid "Email"
+msgstr "E-mail"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:26
+msgid "Fax"
+msgstr "Fax"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:27
+msgid "File Sharing"
+msgstr "Sdieµanie súborov"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:28
+msgid "FTP"
+msgstr "FTP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:29
+msgid "Internet Phone"
+msgstr "Internetový telefón"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:30
+msgid "Messaging"
+msgstr "Messaging"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:31
+msgid "News"
+msgstr "Diskusné skupiny"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:32
+msgid "Video Conferencing"
+msgstr "Videokonferencie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:33
+msgid "Web"
+msgstr "WWW"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:34
+msgid "Multimedia"
+msgstr "Multimédia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:35
+msgid "Graphics"
+msgstr "Grafika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:36
+msgid "3D Modelling"
+msgstr "3D Modelovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:37
+msgid "3D Rendering"
+msgstr "3D Renderovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:38
+msgid "CAD"
+msgstr "CAD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:39
+msgid "Capture"
+msgstr "Zachytávanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:40
+msgid "Conversion"
+msgstr "Prevod"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:41
+msgid "Drawing"
+msgstr "Kreslenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:42
+msgid "Editing"
+msgstr "Úprava"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:43
+msgid "Viewing"
+msgstr "Prezeranie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:44
+msgid "Sound"
+msgstr "Zvuk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:45
+msgid "Analysis"
+msgstr "Analýza"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:46
+msgid "CD Mastering"
+msgstr "Vytváranie CD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:47
+msgid "MIDI"
+msgstr "MIDI"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:48
+msgid "Mixers"
+msgstr "Mixovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:49
+msgid "Players"
+msgstr "Prehrávaèe"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:50
+msgid "Recording"
+msgstr "Nahrávanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:51
+msgid "Speech"
+msgstr "Reè"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:52
+msgid "Video"
+msgstr "Video"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:53
+msgid "Display"
+msgstr "Prehrávanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:54
+msgid "Office"
+msgstr "Kancelária"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:55
+msgid "Calendar"
+msgstr "Kalendár"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:56
+msgid "Data Processing"
+msgstr "Spracovanie dát"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:57
+msgid "Database"
+msgstr "Databáza"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:58
+msgid "Financial"
+msgstr "Finanèné"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:59
+msgid "PIM"
+msgstr "PIM"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:60
+msgid "Plotting"
+msgstr "Kreslenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:61
+msgid "Presentation"
+msgstr "Prezentácia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:62
+msgid "Publishing"
+msgstr "Publikovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:63
+msgid "Web Publishing"
+msgstr "Publikovanie na WWW"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:64
+msgid "Word Processing"
+msgstr "Spracovanie textu"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:65
+msgid "Scientific"
+msgstr "Veda"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:66
+msgid "Astronomy"
+msgstr "Astronómia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:67
+msgid "Astrophysics"
+msgstr "Astrofyzika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:68
+msgid "Biology"
+msgstr "Biológia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:69
+msgid "Chemistry"
+msgstr "Chémia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:70
+msgid "EDA"
+msgstr "EDA"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:71
+msgid "Genetics"
+msgstr "Genetika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:72
+msgid "Math"
+msgstr "Matematika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:73
+msgid "Physics"
+msgstr "Fyzika"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:74
+msgid "Visualisation"
+msgstr "Vizualizácia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:75
+msgid "Security"
+msgstr "Zabezpeèenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:76
+msgid "Cryptography"
+msgstr "Kryptografia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:77
+msgid "Text Editors"
+msgstr "Textové editory"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:78
+msgid "CLI"
+msgstr "Príkazový riadok"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:79
+msgid "GUI"
+msgstr "Grafické"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:80
+msgid "Utilities"
+msgstr "Nástroje"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:81
+msgid "Archiving"
+msgstr "Archivácia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:82
+msgid "Calculating"
+msgstr "Výpoèty"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:83
+msgid "Clocks"
+msgstr "Hodiny"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:84
+msgid "Compression"
+msgstr "Kompresia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:85
+msgid "File Utilities"
+msgstr "Nástroje pre súbory"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:86
+msgid "Monitors"
+msgstr "Monitory"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:87
+msgid "Printing"
+msgstr "Tlaè"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:88
+msgid "Terminals"
+msgstr "Terminály"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:89
+msgid "Text Utilities"
+msgstr "Textové nástroje"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:90
+msgid "X"
+msgstr "X"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:91
+msgid "Configuration"
+msgstr "Nastavenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:92
+msgid "Fonts"
+msgstr "Písma"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:93
+msgid "Login Managers"
+msgstr "Správcovia prihlásenia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:94
+msgid "Screensavers"
+msgstr "©etrièe obrazovky"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:95
+msgid "Window Managers"
+msgstr "Správcovia okien"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:96
+msgid "CDE"
+msgstr "CDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:97
+msgid "Development"
+msgstr "Vývoj"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:98
+msgid "Databases"
+msgstr "Databáze"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:99
+msgid "Development Tools"
+msgstr "Vývojové nástroje"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:100
+msgid "Build Tools"
+msgstr "Preklad"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:101
+msgid "Code Generators"
+msgstr "Generátory kódu"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:102
+msgid "Debuggers"
+msgstr "Odlaïovaèe"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:103
+msgid "IDEs"
+msgstr "IDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:104
+msgid "Packaging"
+msgstr "Balenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:105
+msgid "Profiling"
+msgstr "Profilovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:106
+msgid "RAD"
+msgstr "RAD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:107
+msgid "Version Control"
+msgstr "Správa verzií"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:108
+msgid "Environments"
+msgstr "Prostredia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:109
+msgid "ADA"
+msgstr "ADA"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:110
+msgid "C"
+msgstr "C"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:111
+msgid "C++"
+msgstr "C++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:112
+msgid "GNOME"
+msgstr "GNOME"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:113
+msgid "GTK+"
+msgstr "GTK+"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:114
+msgid "gtk++"
+msgstr "gtk++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:115
+msgid "Java"
+msgstr "Java"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:116
+msgid "KDE"
+msgstr "KDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:117
+msgid "Perl"
+msgstr "Perl"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:118
+msgid "Python"
+msgstr "Python"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:119
+msgid "Qt"
+msgstr "Qt"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:120
+msgid "Tcl/Tk"
+msgstr "Tcl/Tk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:121
+msgid "WebML"
+msgstr "WebML"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:122
+msgid "Kernels"
+msgstr "Kernely"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:123
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:124
+msgid "Linux"
+msgstr "Linux"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:125
+msgid "NetBSD"
+msgstr "NetBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:126
+msgid "Libraries"
+msgstr "Kni¾nice"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:127
+msgid "System Calls"
+msgstr "Systémové volania"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:128
+msgid "General"
+msgstr "V¹eobecné"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:129
+msgid "Licenses"
+msgstr "Licencie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:130
+msgid "Distributions"
+msgstr "Distribúcie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:131
+msgid "Caldera"
+msgstr "Caldera"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:132
+msgid "Debian"
+msgstr "Debian"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:133
+msgid "Mandrake"
+msgstr "Mandrake"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:134
+msgid "Red Flag"
+msgstr "Red Flag"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:135
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:136
+msgid "Slackware"
+msgstr "Slackware"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:137
 msgid "SuSE"
 msgstr "SuSE"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:138
+msgid "Accessibility"
+msgstr "Prístupnos»"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:139
+msgid "Core Desktop"
+msgstr "Základné prostredie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:140
+msgid "Desktop"
+msgstr "Plocha"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:141
+msgid "User Guides"
+msgstr "Pou¾ívateµské manuály"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:142
+msgid "Applets"
+msgstr "Aplety"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:143
+msgid "Accessories"
+msgstr "Príslu¹enstvo"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:144
+msgid "Clock"
+msgstr "Hodiny"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:145
+msgid "Network"
+msgstr "Sie»"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:146
+msgid "Utility"
+msgstr "Nástroje"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:147
+msgid "Desktop Preferences"
+msgstr "Nastavenie plochy"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:148
+msgid "Programming"
+msgstr "Programovanie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:149
+msgid "Sound and Video"
+msgstr "Zvuk a video"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:150
+msgid "System Tools"
+msgstr "Systémové nástroje"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:151
+msgid "Preferences"
+msgstr "Nastavenie"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:152
+msgid "System Administration"
+msgstr "Systémová administrácia"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:153
+msgid "Introductory"
+msgstr "Úvody"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:154
+msgid "Tutorials"
+msgstr "Návody"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:155
+msgid "White Papers"
+msgstr "Technické správy"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:156
-msgid "Syslog"
-msgstr "Systémové záznamy"
+msgid "Settings"
+msgstr "Nastavenie"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:157
 msgid "System"
 msgstr "Systém"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:158
-msgid "System Administration"
-msgstr "Systémová administrácia"
+msgid "Programs"
+msgstr "Programy"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:159
-msgid "System Calls"
-msgstr "Systémové volania"
+msgid "Administration"
+msgstr "Administrácia"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:160
-msgid "System Tools"
-msgstr "Systémové nástroje"
+msgid "Backups"
+msgstr "Zálohovanie"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:161
+msgid "Local"
+msgstr "Lokálne"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:162
+msgid "Remote"
+msgstr "Vzdialené"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:163
+msgid "Filesystems"
+msgstr "Systémy súborov"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:164
+msgid "Networking"
+msgstr "Siet"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:165
+msgid "AppleTalk"
+msgstr "AppleTalk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:166
+msgid "PPP"
+msgstr "PPP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:167
+msgid "SMB"
+msgstr "SMB"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:168
 msgid "TCP/IP"
 msgstr "TCP/IP"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:162
-msgid "Tcl/Tk"
-msgstr "Tcl/Tk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:163
-msgid "Technology"
-msgstr "Technológie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:164
-msgid "Telnet"
-msgstr "Telnet"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:165
-msgid "Terminals"
-msgstr "Terminály"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:166
-msgid "Testing"
-msgstr "Testovanie"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:167
-msgid "Text Editors"
-msgstr "Textové editory"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:168
-msgid "Text Utilities"
-msgstr "Textové nástroje"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:169
-msgid "Tutorials"
-msgstr "Návody"
+msgid "DNS"
+msgstr "DNS"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:170
-msgid "User Guides"
-msgstr "Pou¾ívateµské manuály"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:171
 msgid "Users"
 msgstr "Pou¾ívatelia"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:171
+msgid "Config Files"
+msgstr "Konfiguraèné súbory"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:172
-msgid "Utilities"
-msgstr "Nástroje"
+msgid "Configuration Tools"
+msgstr "Konfiguraèné nástroje"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:173
-msgid "Utility"
-msgstr "Nástroje"
+msgid "Hardware"
+msgstr "Hardvér"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:174
-msgid "Version Control"
-msgstr "Správa verzií"
+msgid "Processor"
+msgstr "Procesor"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:175
-msgid "Video"
-msgstr "Video"
+msgid "Storage"
+msgstr "Disky"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:176
-msgid "Video Conferencing"
-msgstr "Videokonferencie"
+msgid "Input Devices"
+msgstr "Vstupné zariadenia"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:177
-msgid "Viewing"
-msgstr "Prezeranie"
+msgid "PCI/ISA/PCMCIA"
+msgstr "PCI/ISA/PCMCIA"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:178
+msgid "Package Management"
+msgstr "Správa balíkov"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:179
+msgid "Firewall"
+msgstr "Firewall"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:180
+msgid "Intrusion Detection"
+msgstr "Detekcia prieniku"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:181
 msgid "Virus"
 msgstr "Vírusy"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:179
-msgid "Visualisation"
-msgstr "Vizualizácia"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:180
-msgid "Web"
-msgstr "WWW"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:181
-msgid "Web Publishing"
-msgstr "Publikovanie na WWW"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:182
-msgid "WebML"
-msgstr "WebML"
+msgid "Services"
+msgstr "Slu¾by"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:183
-msgid "White Papers"
-msgstr "Technické správy"
+msgid "HTTP"
+msgstr "HTTP"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:184
-msgid "Window Managers"
-msgstr "Správcovia okien"
+msgid "SSH"
+msgstr "SSH"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:185
-msgid "Word Processing"
-msgstr "Spracovanie textu"
+msgid "Telnet"
+msgstr "Telnet"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:186
-msgid "X"
-msgstr "X"
+msgid "Syslog"
+msgstr "Systémové záznamy"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:187
-msgid "gtk++"
-msgstr "gtk++"
+msgid "BIND"
+msgstr "BIND"
 
 #: buildtools/separate.c:63 buildtools/separate.c:75 buildtools/separate.c:88
+#, c-format
 msgid "Invalid category file.\n"
 msgstr "Neplatný súbor kategórií.\n"
 
 #: buildtools/separate.c:298
+#, c-format
 msgid "Usage: scrollkeeper-tree-separate <tree file> <output directory>\n"
 msgstr ""
 "Pou¾itie: scrollkeeper-tree-separate <súbor stromu> <výstupný prieèinok>\n"
 
 #: buildtools/separate.c:320
+#, c-format
 msgid "File does not contain well-formed XML\n"
 msgstr "Súbor nie je správne formátovaný XML.\n"
 
 #: buildtools/separate.c:325
+#, c-format
 msgid "tree separation failed\n"
 msgstr "oddelenie stromu zlyhalo\n"
 
@@ -1034,6 +1045,7 @@ msgid "Creating localized category file: %s\n"
 msgstr "Vytváram súbor s lokalizovanými kategóriami: %s\n"
 
 #: buildtools/separate.c:348
+#, c-format
 msgid "Unable to create all localized category files.\n"
 msgstr "Nepodarilo sa vytvori» súbor so v¹etkými lokalizovanými kategóriami.\n"
 

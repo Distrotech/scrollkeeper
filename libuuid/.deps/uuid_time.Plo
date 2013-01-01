@@ -1,0 +1,120 @@
+uuid_time.lo: uuid_time.c /build/x86_64/usr/include/stdc-predef.h \
+ /build/x86_64/usr/include/stdio.h /build/x86_64/usr/include/features.h \
+ /build/x86_64/usr/include/sys/cdefs.h \
+ /build/x86_64/usr/include/bits/wordsize.h \
+ /build/x86_64/usr/include/gnu/stubs.h \
+ /build/x86_64/usr/include/gnu/stubs-64.h \
+ /build/x86_64//usr/lib64/gcc/x86_64-linux-gnu/4.8.0//include/stddef.h \
+ /build/x86_64/usr/include/bits/types.h \
+ /build/x86_64/usr/include/bits/typesizes.h \
+ /build/x86_64/usr/include/libio.h /build/x86_64/usr/include/_G_config.h \
+ /build/x86_64/usr/include/wchar.h \
+ /build/x86_64//usr/lib64/gcc/x86_64-linux-gnu/4.8.0//include/stdarg.h \
+ /build/x86_64/usr/include/bits/stdio_lim.h \
+ /build/x86_64/usr/include/bits/sys_errlist.h \
+ /build/x86_64/usr/include/unistd.h \
+ /build/x86_64/usr/include/bits/posix_opt.h \
+ /build/x86_64/usr/include/bits/environments.h \
+ /build/x86_64/usr/include/bits/confname.h \
+ /build/x86_64/usr/include/getopt.h /build/x86_64/usr/include/stdlib.h \
+ /build/x86_64/usr/include/bits/waitflags.h \
+ /build/x86_64/usr/include/bits/waitstatus.h \
+ /build/x86_64/usr/include/endian.h \
+ /build/x86_64/usr/include/bits/endian.h \
+ /build/x86_64/usr/include/bits/byteswap.h \
+ /build/x86_64/usr/include/bits/byteswap-16.h \
+ /build/x86_64/usr/include/sys/types.h /build/x86_64/usr/include/time.h \
+ /build/x86_64/usr/include/sys/select.h \
+ /build/x86_64/usr/include/bits/select.h \
+ /build/x86_64/usr/include/bits/sigset.h \
+ /build/x86_64/usr/include/bits/time.h \
+ /build/x86_64/usr/include/sys/sysmacros.h \
+ /build/x86_64/usr/include/bits/pthreadtypes.h \
+ /build/x86_64/usr/include/alloca.h \
+ /build/x86_64/usr/include/bits/stdlib-float.h \
+ /build/x86_64/usr/include/sys/time.h /build/x86_64/usr/include/xlocale.h \
+ uuidP.h uuid.h
+
+/build/x86_64/usr/include/stdc-predef.h:
+
+/build/x86_64/usr/include/stdio.h:
+
+/build/x86_64/usr/include/features.h:
+
+/build/x86_64/usr/include/sys/cdefs.h:
+
+/build/x86_64/usr/include/bits/wordsize.h:
+
+/build/x86_64/usr/include/gnu/stubs.h:
+
+/build/x86_64/usr/include/gnu/stubs-64.h:
+
+/build/x86_64//usr/lib64/gcc/x86_64-linux-gnu/4.8.0//include/stddef.h:
+
+/build/x86_64/usr/include/bits/types.h:
+
+/build/x86_64/usr/include/bits/typesizes.h:
+
+/build/x86_64/usr/include/libio.h:
+
+/build/x86_64/usr/include/_G_config.h:
+
+/build/x86_64/usr/include/wchar.h:
+
+/build/x86_64//usr/lib64/gcc/x86_64-linux-gnu/4.8.0//include/stdarg.h:
+
+/build/x86_64/usr/include/bits/stdio_lim.h:
+
+/build/x86_64/usr/include/bits/sys_errlist.h:
+
+/build/x86_64/usr/include/unistd.h:
+
+/build/x86_64/usr/include/bits/posix_opt.h:
+
+/build/x86_64/usr/include/bits/environments.h:
+
+/build/x86_64/usr/include/bits/confname.h:
+
+/build/x86_64/usr/include/getopt.h:
+
+/build/x86_64/usr/include/stdlib.h:
+
+/build/x86_64/usr/include/bits/waitflags.h:
+
+/build/x86_64/usr/include/bits/waitstatus.h:
+
+/build/x86_64/usr/include/endian.h:
+
+/build/x86_64/usr/include/bits/endian.h:
+
+/build/x86_64/usr/include/bits/byteswap.h:
+
+/build/x86_64/usr/include/bits/byteswap-16.h:
+
+/build/x86_64/usr/include/sys/types.h:
+
+/build/x86_64/usr/include/time.h:
+
+/build/x86_64/usr/include/sys/select.h:
+
+/build/x86_64/usr/include/bits/select.h:
+
+/build/x86_64/usr/include/bits/sigset.h:
+
+/build/x86_64/usr/include/bits/time.h:
+
+/build/x86_64/usr/include/sys/sysmacros.h:
+
+/build/x86_64/usr/include/bits/pthreadtypes.h:
+
+/build/x86_64/usr/include/alloca.h:
+
+/build/x86_64/usr/include/bits/stdlib-float.h:
+
+/build/x86_64/usr/include/sys/time.h:
+
+/build/x86_64/usr/include/xlocale.h:
+
+uuidP.h:
+
+uuid.h:

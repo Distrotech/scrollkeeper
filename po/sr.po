@@ -6,15 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scrollkeeper 0.3.13-pre1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-06 19:22+1100\n"
+"POT-Creation-Date: 2012-12-27 22:58+0200\n"
 "PO-Revision-Date: 2003-11-02 11:45+0100\n"
 "Last-Translator: Danilo Segan <dsegan@gmx.net>\n"
 "Language-Team: Serbian <sr@li.org>\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: cl/src/scrollkeeper-install.c:36
+#, c-format
 msgid ""
 "Usage: scrollkeeper-install [-n] [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -37,7 +39,7 @@ msgid "Unable to register %s\n"
 msgstr "Не могу да пријавим %s\n"
 
 #: cl/src/preinstall.c:34
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Usage: scrollkeeper-preinstall [-n] <DOC FILE> <OMF FILE> <NEW OMF FILE>\n"
 msgstr ""
@@ -52,6 +54,7 @@ msgstr ""
 "датотеку.\n"
 
 #: cl/src/scrollkeeper-uninstall.c:32
+#, c-format
 msgid ""
 "Usage: scrollkeeper-uninstall [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -226,22 +229,27 @@ msgid "Could not create directory %s : %s\n"
 msgstr "Не могу да направим директоријум %s : %s\n"
 
 #: libs/update-url.c:40
+#, c-format
 msgid "OMF file was not well-formed.\n"
 msgstr "OMF датотека није исправна.\n"
 
 #: libs/update-url.c:48
+#, c-format
 msgid "Could not find root element of OMF file.\n"
 msgstr "Не могу да пронађем корени елемент OMF датотеке.\n"
 
 #: libs/update-url.c:52
+#, c-format
 msgid "Root element of OMF file is not <omf>.\n"
 msgstr "Корени елемент OMF датотеке није <omf>.\n"
 
 #: libs/update-url.c:64
+#, c-format
 msgid "OMF file does not have <resource> element.\n"
 msgstr "OMF датотека не садржи елемент <resource>.\n"
 
 #: extract/src/scrollkeeper-extract.c:30
+#, c-format
 msgid ""
 "Usage: scrollkeeper-extract <xml file> <stylesheet 1> <output file 1> "
 "<stylesheet 2> <output file 2> ...\n"
@@ -255,768 +263,772 @@ msgid "Unrecognized file type: %s\n"
 msgstr "Непозната врста датотеке: %s\n"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:1
-msgid "3D Modelling"
-msgstr "3Д моделирање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:2
-msgid "3D Rendering"
-msgstr "3Д исцртавање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:3
-msgid "ADA"
-msgstr "Ада"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:4
-msgid "Accessibility"
-msgstr "Приступачност"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:5
-msgid "Accessories"
-msgstr "Алатке"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:6
-msgid "Administration"
-msgstr "Администрација"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:7
-msgid "Amusement"
-msgstr "Забава"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:8
-msgid "Analysis"
-msgstr "Анализа"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:9
-msgid "AppleTalk"
-msgstr "AppleTalk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:10
-msgid "Applets"
-msgstr "Програмчићи"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:11
 msgid "Applications"
 msgstr "Програми"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:12
-msgid "Arcade"
-msgstr "Аркаде"
+#: cl/templates/scrollkeeper_cl.xml.in.h:2
+msgid "Amusement"
+msgstr "Забава"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:13
-msgid "Archiving"
-msgstr "Архивирање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:14
-msgid "Arts"
-msgstr "Уметност"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:15
-msgid "Astronomy"
-msgstr "Астрономија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:16
-msgid "Astrophysics"
-msgstr "Астрофизика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:17
-msgid "BIND"
-msgstr "BIND"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:18
-msgid "Backups"
-msgstr "Резервни примерци"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:19
-msgid "Biology"
-msgstr "Биологија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:20
-msgid "Board"
-msgstr "Табла"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:21
-msgid "Build Tools"
-msgstr "Алати за изградњу"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:22
-msgid "C"
-msgstr "C"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:23
-msgid "C++"
-msgstr "C++"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:24
-msgid "CAD"
-msgstr "CAD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:25
-msgid "CD Mastering"
-msgstr "Припрема ЦД-а"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:26
-msgid "CDE"
-msgstr "CDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:27
-msgid "CLI"
-msgstr "Наредбена линија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:28
-msgid "Calculating"
-msgstr "Израчунавање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:29
-msgid "Caldera"
-msgstr "Калдера"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:30
-msgid "Calendar"
-msgstr "Календар"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:31
-msgid "Capture"
-msgstr "Сними"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:32
-msgid "Chat"
-msgstr "Ћаскање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:33
-msgid "Chemistry"
-msgstr "Хемија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:34
-msgid "Clock"
-msgstr "Часовник"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:35
-msgid "Clocks"
-msgstr "Часовници"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:36
-msgid "Code Generators"
-msgstr "Произвођачи кôда"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:37
-msgid "Compression"
-msgstr "Сажимање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:38
-msgid "Computer Science"
-msgstr "Рачунарство"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:39
-msgid "Config Files"
-msgstr "Датотеке са подешавањима"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:40
-msgid "Configuration"
-msgstr "Подешавања"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:41
-msgid "Configuration Tools"
-msgstr "Алати за подешавање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:42
-msgid "Conversion"
-msgstr "Претварање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:43
-msgid "Core Desktop"
-msgstr "Основна радна површина"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:44
-msgid "Cryptography"
-msgstr "Шифровање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:45
-msgid "DNS"
-msgstr "DNS"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:46
-msgid "Data Processing"
-msgstr "Обрада података"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:47
-msgid "Database"
-msgstr "База података"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:48
-msgid "Databases"
-msgstr "Базе података"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:49
-msgid "Debian"
-msgstr "Дебијан"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:50
-msgid "Debuggers"
-msgstr "Проналажење грешака"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:51
-msgid "Desktop"
-msgstr "Радна површина"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:52
-msgid "Desktop Preferences"
-msgstr "Поставке радне површине"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:53
-msgid "Development"
-msgstr "Развој"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:54
-msgid "Development Tools"
-msgstr "Алати за развој"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:55
-msgid "Display"
-msgstr "Екран"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:56
-msgid "Distributions"
-msgstr "Дистрибуције"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:57
-msgid "Drawing"
-msgstr "Цртање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:58
-msgid "EDA"
-msgstr "EDA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:59
-msgid "Editing"
-msgstr "Уређивање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:60
+#: cl/templates/scrollkeeper_cl.xml.in.h:3
 msgid "Education"
 msgstr "Образовање"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:61
-msgid "Email"
-msgstr "Епошта"
+#: cl/templates/scrollkeeper_cl.xml.in.h:4
+msgid "Arts"
+msgstr "Уметност"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:62
+#: cl/templates/scrollkeeper_cl.xml.in.h:5
+msgid "Computer Science"
+msgstr "Рачунарство"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:6
 msgid "English"
 msgstr "Енглески"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:63
-msgid "Environments"
-msgstr "Окружења"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:64
-msgid "FTP"
-msgstr "FTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:65
-msgid "Fax"
-msgstr "Факс"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:66
-msgid "Fighting"
-msgstr "Борбе"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:67
-msgid "File Sharing"
-msgstr "Дељење датотека"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:68
-msgid "File Utilities"
-msgstr "Алати за датотеке"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:69
-msgid "Filesystems"
-msgstr "Системи датотека"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:70
-msgid "Financial"
-msgstr "Финансијски"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:71
-msgid "Firewall"
-msgstr "Штит"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:72
-msgid "First Person Shooters"
-msgstr "Пуцачина у првом лицу"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:73
-msgid "Fonts"
-msgstr "Фонтови"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:74
-msgid "FreeBSD"
-msgstr "FreeBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:75
-msgid "GNOME"
-msgstr "Гном"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:76
-msgid "GTK+"
-msgstr "Гтк+"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:77
-msgid "GUI"
-msgstr "Графичка корисничка сучеља"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:78
-msgid "Games"
-msgstr "Игре"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:79
-msgid "General"
-msgstr "Опште"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:80
-msgid "Genetics"
-msgstr "Генетика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:81
-msgid "Graphics"
-msgstr "Графика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:82
-msgid "HTTP"
-msgstr "HTTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:83
-msgid "Hardware"
-msgstr "Хардвер"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:84
-msgid "IDEs"
-msgstr "Интегрисана развојна окружења"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:85
-msgid "Input Devices"
-msgstr "Улазни уређаји"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:86
-msgid "Internet"
-msgstr "Интернет"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:87
-msgid "Internet Phone"
-msgstr "Интернет телефон"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:88
-msgid "Introductory"
-msgstr "Уводно"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:89
-msgid "Intrusion Detection"
-msgstr "Примећивање уљеза"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:90
-msgid "Java"
-msgstr "Јава"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:91
-msgid "KDE"
-msgstr "КДЕ"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:92
-msgid "Kernels"
-msgstr "Језгра"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:93
+#: cl/templates/scrollkeeper_cl.xml.in.h:7
 msgid "Language"
 msgstr "Језик"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:94
-msgid "Libraries"
-msgstr "Библиотеке"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:95
-msgid "Licenses"
-msgstr "Лиценце"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:96
-msgid "Linux"
-msgstr "Линукс"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:97
-msgid "Local"
-msgstr "Локално"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:98
-msgid "Login Managers"
-msgstr "Управљачи пријавом"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:99
-msgid "MIDI"
-msgstr "MIDI"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:100
-msgid "Mandrake"
-msgstr "Мандрак"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:101
-msgid "Math"
-msgstr "Математика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:102
+#: cl/templates/scrollkeeper_cl.xml.in.h:8
 msgid "Maths"
 msgstr "Математички"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:103
-msgid "Messaging"
-msgstr "Слање порука"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:104
-msgid "Mixers"
-msgstr "Миксери"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:105
-msgid "Monitors"
-msgstr "Праћење"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:106
-msgid "Multimedia"
-msgstr "Мултимедија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:107
+#: cl/templates/scrollkeeper_cl.xml.in.h:9
 msgid "Music"
 msgstr "Музика"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:108
-msgid "NetBSD"
-msgstr "NetBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:109
-msgid "Network"
-msgstr "Мрежа"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:110
-msgid "Networking"
-msgstr "Мрежење"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:111
-msgid "News"
-msgstr "Вести"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:112
-msgid "Office"
-msgstr "Канцеларија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:113
-msgid "Other"
-msgstr "Остало"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:114
-msgid "PCI/ISA/PCMCIA"
-msgstr "PCI/ISA/PCMCIA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:115
-msgid "PIM"
-msgstr "Управљање личним подацима"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:116
-msgid "PPP"
-msgstr "PPP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:117
-msgid "Package Management"
-msgstr "Управљање пакетима"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:118
-msgid "Packaging"
-msgstr "Пакети"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:119
-msgid "Perl"
-msgstr "Перл"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:120
-msgid "Physics"
-msgstr "Физика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:121
-msgid "Players"
-msgstr "Играчи"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:122
-msgid "Plotting"
-msgstr "Исцртавање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:123
-msgid "Preferences"
-msgstr "Поставке"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:124
-msgid "Presentation"
-msgstr "Презентација"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:125
-msgid "Printing"
-msgstr "Штампа"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:126
-msgid "Processor"
-msgstr "Процесор"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:127
-msgid "Profiling"
-msgstr "Профилисање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:128
-msgid "Programming"
-msgstr "Програмирање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:129
-msgid "Programs"
-msgstr "Програми"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:130
-msgid "Publishing"
-msgstr "Издаваштво"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:131
-msgid "Puzzles"
-msgstr "Слагалице"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:132
-msgid "Python"
-msgstr "Питон"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:133
-msgid "Qt"
-msgstr "Qt"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:134
-msgid "RAD"
-msgstr "Брзи развој програма"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:135
-msgid "Recording"
-msgstr "Снимање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:136
-msgid "Red Flag"
-msgstr "Црвена застава"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:137
-msgid "Red Hat"
-msgstr "Црвенкапа"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:138
-msgid "Remote"
-msgstr "Удаљени"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:139
-msgid "Role-Playing"
-msgstr "Играње-улоге"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:140
-msgid "SMB"
-msgstr "SMB"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:141
-msgid "SSH"
-msgstr "SSH"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:142
+#: cl/templates/scrollkeeper_cl.xml.in.h:10
 msgid "Science"
 msgstr "Наука"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:143
-msgid "Scientific"
-msgstr "Научни"
+#: cl/templates/scrollkeeper_cl.xml.in.h:11
+msgid "Technology"
+msgstr "Технологија"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:144
-msgid "Screensavers"
-msgstr "Чувари екрана"
+#: cl/templates/scrollkeeper_cl.xml.in.h:12
+msgid "Testing"
+msgstr "Испробавање"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:145
-msgid "Security"
-msgstr "Безбедност"
+#: cl/templates/scrollkeeper_cl.xml.in.h:13
+msgid "Other"
+msgstr "Остало"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:146
-msgid "Services"
-msgstr "Услуге"
+#: cl/templates/scrollkeeper_cl.xml.in.h:14
+msgid "Games"
+msgstr "Игре"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:147
-msgid "Settings"
-msgstr "Подешавања"
+#: cl/templates/scrollkeeper_cl.xml.in.h:15
+msgid "Arcade"
+msgstr "Аркаде"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:148
+#: cl/templates/scrollkeeper_cl.xml.in.h:16
+msgid "Board"
+msgstr "Табла"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:17
+msgid "First Person Shooters"
+msgstr "Пуцачина у првом лицу"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:18
+msgid "Puzzles"
+msgstr "Слагалице"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:19
+msgid "Fighting"
+msgstr "Борбе"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:20
+msgid "Role-Playing"
+msgstr "Играње-улоге"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:21
 msgid "Simulation"
 msgstr "Симулација"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:149
-msgid "Slackware"
-msgstr "Слеквер"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:150
-msgid "Sound"
-msgstr "Звук"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:151
-msgid "Sound and Video"
-msgstr "Звук и слика"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:152
-msgid "Speech"
-msgstr "Говор"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:153
-msgid "Storage"
-msgstr "Смештај"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:154
+#: cl/templates/scrollkeeper_cl.xml.in.h:22
 msgid "Strategy"
 msgstr "Стратегија"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:155
+#: cl/templates/scrollkeeper_cl.xml.in.h:23
+msgid "Internet"
+msgstr "Интернет"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:24
+msgid "Chat"
+msgstr "Ћаскање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:25
+msgid "Email"
+msgstr "Епошта"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:26
+msgid "Fax"
+msgstr "Факс"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:27
+msgid "File Sharing"
+msgstr "Дељење датотека"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:28
+msgid "FTP"
+msgstr "FTP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:29
+msgid "Internet Phone"
+msgstr "Интернет телефон"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:30
+msgid "Messaging"
+msgstr "Слање порука"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:31
+msgid "News"
+msgstr "Вести"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:32
+msgid "Video Conferencing"
+msgstr "Видео разговори"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:33
+msgid "Web"
+msgstr "Веб"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:34
+msgid "Multimedia"
+msgstr "Мултимедија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:35
+msgid "Graphics"
+msgstr "Графика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:36
+msgid "3D Modelling"
+msgstr "3Д моделирање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:37
+msgid "3D Rendering"
+msgstr "3Д исцртавање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:38
+msgid "CAD"
+msgstr "CAD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:39
+msgid "Capture"
+msgstr "Сними"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:40
+msgid "Conversion"
+msgstr "Претварање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:41
+msgid "Drawing"
+msgstr "Цртање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:42
+msgid "Editing"
+msgstr "Уређивање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:43
+msgid "Viewing"
+msgstr "Гледање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:44
+msgid "Sound"
+msgstr "Звук"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:45
+msgid "Analysis"
+msgstr "Анализа"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:46
+msgid "CD Mastering"
+msgstr "Припрема ЦД-а"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:47
+msgid "MIDI"
+msgstr "MIDI"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:48
+msgid "Mixers"
+msgstr "Миксери"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:49
+msgid "Players"
+msgstr "Играчи"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:50
+msgid "Recording"
+msgstr "Снимање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:51
+msgid "Speech"
+msgstr "Говор"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:52
+msgid "Video"
+msgstr "Видео"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:53
+msgid "Display"
+msgstr "Екран"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:54
+msgid "Office"
+msgstr "Канцеларија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:55
+msgid "Calendar"
+msgstr "Календар"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:56
+msgid "Data Processing"
+msgstr "Обрада података"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:57
+msgid "Database"
+msgstr "База података"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:58
+msgid "Financial"
+msgstr "Финансијски"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:59
+msgid "PIM"
+msgstr "Управљање личним подацима"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:60
+msgid "Plotting"
+msgstr "Исцртавање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:61
+msgid "Presentation"
+msgstr "Презентација"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:62
+msgid "Publishing"
+msgstr "Издаваштво"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:63
+msgid "Web Publishing"
+msgstr "Веб издаваштво"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:64
+msgid "Word Processing"
+msgstr "Обрада текста"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:65
+msgid "Scientific"
+msgstr "Научни"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:66
+msgid "Astronomy"
+msgstr "Астрономија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:67
+msgid "Astrophysics"
+msgstr "Астрофизика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:68
+msgid "Biology"
+msgstr "Биологија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:69
+msgid "Chemistry"
+msgstr "Хемија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:70
+msgid "EDA"
+msgstr "EDA"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:71
+msgid "Genetics"
+msgstr "Генетика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:72
+msgid "Math"
+msgstr "Математика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:73
+msgid "Physics"
+msgstr "Физика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:74
+msgid "Visualisation"
+msgstr "Визуелизација"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:75
+msgid "Security"
+msgstr "Безбедност"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:76
+msgid "Cryptography"
+msgstr "Шифровање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:77
+msgid "Text Editors"
+msgstr "Уређивачи текста"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:78
+msgid "CLI"
+msgstr "Наредбена линија"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:79
+msgid "GUI"
+msgstr "Графичка корисничка сучеља"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:80
+msgid "Utilities"
+msgstr "Алатке"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:81
+msgid "Archiving"
+msgstr "Архивирање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:82
+msgid "Calculating"
+msgstr "Израчунавање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:83
+msgid "Clocks"
+msgstr "Часовници"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:84
+msgid "Compression"
+msgstr "Сажимање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:85
+msgid "File Utilities"
+msgstr "Алати за датотеке"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:86
+msgid "Monitors"
+msgstr "Праћење"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:87
+msgid "Printing"
+msgstr "Штампа"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:88
+msgid "Terminals"
+msgstr "Терминали"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:89
+msgid "Text Utilities"
+msgstr "Алати за текст"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:90
+msgid "X"
+msgstr "X"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:91
+msgid "Configuration"
+msgstr "Подешавања"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:92
+msgid "Fonts"
+msgstr "Фонтови"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:93
+msgid "Login Managers"
+msgstr "Управљачи пријавом"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:94
+msgid "Screensavers"
+msgstr "Чувари екрана"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:95
+msgid "Window Managers"
+msgstr "Управници прозорима"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:96
+msgid "CDE"
+msgstr "CDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:97
+msgid "Development"
+msgstr "Развој"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:98
+msgid "Databases"
+msgstr "Базе података"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:99
+msgid "Development Tools"
+msgstr "Алати за развој"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:100
+msgid "Build Tools"
+msgstr "Алати за изградњу"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:101
+msgid "Code Generators"
+msgstr "Произвођачи кôда"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:102
+msgid "Debuggers"
+msgstr "Проналажење грешака"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:103
+msgid "IDEs"
+msgstr "Интегрисана развојна окружења"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:104
+msgid "Packaging"
+msgstr "Пакети"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:105
+msgid "Profiling"
+msgstr "Профилисање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:106
+msgid "RAD"
+msgstr "Брзи развој програма"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:107
+msgid "Version Control"
+msgstr "Управљање издањима"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:108
+msgid "Environments"
+msgstr "Окружења"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:109
+msgid "ADA"
+msgstr "Ада"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:110
+msgid "C"
+msgstr "C"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:111
+msgid "C++"
+msgstr "C++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:112
+msgid "GNOME"
+msgstr "Гном"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:113
+msgid "GTK+"
+msgstr "Гтк+"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:114
+msgid "gtk++"
+msgstr "gtk++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:115
+msgid "Java"
+msgstr "Јава"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:116
+msgid "KDE"
+msgstr "КДЕ"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:117
+msgid "Perl"
+msgstr "Перл"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:118
+msgid "Python"
+msgstr "Питон"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:119
+msgid "Qt"
+msgstr "Qt"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:120
+msgid "Tcl/Tk"
+msgstr "Tcl/Tk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:121
+msgid "WebML"
+msgstr "ВебML"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:122
+msgid "Kernels"
+msgstr "Језгра"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:123
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:124
+msgid "Linux"
+msgstr "Линукс"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:125
+msgid "NetBSD"
+msgstr "NetBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:126
+msgid "Libraries"
+msgstr "Библиотеке"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:127
+msgid "System Calls"
+msgstr "Системски позиви"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:128
+msgid "General"
+msgstr "Опште"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:129
+msgid "Licenses"
+msgstr "Лиценце"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:130
+msgid "Distributions"
+msgstr "Дистрибуције"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:131
+msgid "Caldera"
+msgstr "Калдера"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:132
+msgid "Debian"
+msgstr "Дебијан"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:133
+msgid "Mandrake"
+msgstr "Мандрак"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:134
+msgid "Red Flag"
+msgstr "Црвена застава"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:135
+msgid "Red Hat"
+msgstr "Црвенкапа"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:136
+msgid "Slackware"
+msgstr "Слеквер"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:137
 msgid "SuSE"
 msgstr "СуСЕ"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:138
+msgid "Accessibility"
+msgstr "Приступачност"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:139
+msgid "Core Desktop"
+msgstr "Основна радна површина"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:140
+msgid "Desktop"
+msgstr "Радна површина"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:141
+msgid "User Guides"
+msgstr "Упутства"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:142
+msgid "Applets"
+msgstr "Програмчићи"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:143
+msgid "Accessories"
+msgstr "Алатке"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:144
+msgid "Clock"
+msgstr "Часовник"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:145
+msgid "Network"
+msgstr "Мрежа"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:146
+msgid "Utility"
+msgstr "Алатка"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:147
+msgid "Desktop Preferences"
+msgstr "Поставке радне површине"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:148
+msgid "Programming"
+msgstr "Програмирање"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:149
+msgid "Sound and Video"
+msgstr "Звук и слика"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:150
+msgid "System Tools"
+msgstr "Системски алати"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:151
+msgid "Preferences"
+msgstr "Поставке"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:152
+msgid "System Administration"
+msgstr "Одржавање система"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:153
+msgid "Introductory"
+msgstr "Уводно"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:154
+msgid "Tutorials"
+msgstr "Водичи"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:155
+msgid "White Papers"
+msgstr "Истраживачки чланци"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:156
-msgid "Syslog"
-msgstr "Системски дневник"
+msgid "Settings"
+msgstr "Подешавања"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:157
 msgid "System"
 msgstr "Систем"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:158
-msgid "System Administration"
-msgstr "Одржавање система"
+msgid "Programs"
+msgstr "Програми"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:159
-msgid "System Calls"
-msgstr "Системски позиви"
+msgid "Administration"
+msgstr "Администрација"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:160
-msgid "System Tools"
-msgstr "Системски алати"
+msgid "Backups"
+msgstr "Резервни примерци"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:161
+msgid "Local"
+msgstr "Локално"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:162
+msgid "Remote"
+msgstr "Удаљени"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:163
+msgid "Filesystems"
+msgstr "Системи датотека"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:164
+msgid "Networking"
+msgstr "Мрежење"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:165
+msgid "AppleTalk"
+msgstr "AppleTalk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:166
+msgid "PPP"
+msgstr "PPP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:167
+msgid "SMB"
+msgstr "SMB"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:168
 msgid "TCP/IP"
 msgstr "TCP/IP"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:162
-msgid "Tcl/Tk"
-msgstr "Tcl/Tk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:163
-msgid "Technology"
-msgstr "Технологија"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:164
-msgid "Telnet"
-msgstr "Телнет"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:165
-msgid "Terminals"
-msgstr "Терминали"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:166
-msgid "Testing"
-msgstr "Испробавање"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:167
-msgid "Text Editors"
-msgstr "Уређивачи текста"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:168
-msgid "Text Utilities"
-msgstr "Алати за текст"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:169
-msgid "Tutorials"
-msgstr "Водичи"
+msgid "DNS"
+msgstr "DNS"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:170
-msgid "User Guides"
-msgstr "Упутства"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:171
 msgid "Users"
 msgstr "Корисници"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:171
+msgid "Config Files"
+msgstr "Датотеке са подешавањима"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:172
-msgid "Utilities"
-msgstr "Алатке"
+msgid "Configuration Tools"
+msgstr "Алати за подешавање"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:173
-msgid "Utility"
-msgstr "Алатка"
+msgid "Hardware"
+msgstr "Хардвер"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:174
-msgid "Version Control"
-msgstr "Управљање издањима"
+msgid "Processor"
+msgstr "Процесор"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:175
-msgid "Video"
-msgstr "Видео"
+msgid "Storage"
+msgstr "Смештај"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:176
-msgid "Video Conferencing"
-msgstr "Видео разговори"
+msgid "Input Devices"
+msgstr "Улазни уређаји"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:177
-msgid "Viewing"
-msgstr "Гледање"
+msgid "PCI/ISA/PCMCIA"
+msgstr "PCI/ISA/PCMCIA"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:178
+msgid "Package Management"
+msgstr "Управљање пакетима"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:179
+msgid "Firewall"
+msgstr "Штит"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:180
+msgid "Intrusion Detection"
+msgstr "Примећивање уљеза"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:181
 msgid "Virus"
 msgstr "Вирус"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:179
-msgid "Visualisation"
-msgstr "Визуелизација"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:180
-msgid "Web"
-msgstr "Веб"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:181
-msgid "Web Publishing"
-msgstr "Веб издаваштво"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:182
-msgid "WebML"
-msgstr "ВебML"
+msgid "Services"
+msgstr "Услуге"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:183
-msgid "White Papers"
-msgstr "Истраживачки чланци"
+msgid "HTTP"
+msgstr "HTTP"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:184
-msgid "Window Managers"
-msgstr "Управници прозорима"
+msgid "SSH"
+msgstr "SSH"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:185
-msgid "Word Processing"
-msgstr "Обрада текста"
+msgid "Telnet"
+msgstr "Телнет"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:186
-msgid "X"
-msgstr "X"
+msgid "Syslog"
+msgstr "Системски дневник"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:187
-msgid "gtk++"
-msgstr "gtk++"
+msgid "BIND"
+msgstr "BIND"
 
 #: buildtools/separate.c:63 buildtools/separate.c:75 buildtools/separate.c:88
+#, c-format
 msgid "Invalid category file.\n"
 msgstr "Неисправна датотека категорије.\n"
 
 #: buildtools/separate.c:298
+#, c-format
 msgid "Usage: scrollkeeper-tree-separate <tree file> <output directory>\n"
 msgstr ""
 "Употреба: scrollkeeper-tree-separate <датотека стабла> <излазни "
 "директоријум>\n"
 
 #: buildtools/separate.c:320
+#, c-format
 msgid "File does not contain well-formed XML\n"
 msgstr "Датотека не садржи исправан XML\n"
 
 #: buildtools/separate.c:325
+#, c-format
 msgid "tree separation failed\n"
 msgstr "неуспешно раздвајање стабла\n"
 
@@ -1031,6 +1043,7 @@ msgid "Creating localized category file: %s\n"
 msgstr "Образује локализовану датотеку категорија: %s\n"
 
 #: buildtools/separate.c:348
+#, c-format
 msgid "Unable to create all localized category files.\n"
 msgstr "Не могу да направим све локализоване датотеке категорија.\n"
 

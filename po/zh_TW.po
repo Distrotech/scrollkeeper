@@ -6,16 +6,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: scrollkeeper 0.3.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-06 19:22+1100\n"
+"POT-Creation-Date: 2012-12-27 22:58+0200\n"
 "PO-Revision-Date: 2003-01-29 11:11+0800\n"
 "Last-Translator: Abel Cheung <maddog@linux.org.hk>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: cl/src/scrollkeeper-install.c:36
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Usage: scrollkeeper-install [-n] [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -37,7 +38,7 @@ msgid "Unable to register %s\n"
 msgstr "無法登記 %s\n"
 
 #: cl/src/preinstall.c:34
-#, fuzzy
+#, fuzzy, c-format
 msgid ""
 "Usage: scrollkeeper-preinstall [-n] <DOC FILE> <OMF FILE> <NEW OMF FILE>\n"
 msgstr "用法：scrollkeeper-preinstall <DOC檔案> <OMF檔案> <新OMF檔案>\n"
@@ -48,6 +49,7 @@ msgid "Unable to update URL in OMF file %s.  Copying OMF file unchanged.\n"
 msgstr "無法更新 OMF 檔 %s 內的 URL。複製 OMF 檔案時將不會更改內容。\n"
 
 #: cl/src/scrollkeeper-uninstall.c:32
+#, c-format
 msgid ""
 "Usage: scrollkeeper-uninstall [-v] [-q] [-p <SCROLLKEEPER_DB_DIR>] <OMF "
 "FILE>\n"
@@ -215,22 +217,27 @@ msgid "Could not create directory %s : %s\n"
 msgstr "無法建立目錄 %s：%s\n"
 
 #: libs/update-url.c:40
+#, c-format
 msgid "OMF file was not well-formed.\n"
 msgstr "OMF 檔案結構不正確。\n"
 
 #: libs/update-url.c:48
+#, c-format
 msgid "Could not find root element of OMF file.\n"
 msgstr "OMF 檔案中找不到任何頂層元素。\n"
 
 #: libs/update-url.c:52
+#, c-format
 msgid "Root element of OMF file is not <omf>.\n"
 msgstr "OMF 檔案的頂層元素不是 <omf>。\n"
 
 #: libs/update-url.c:64
+#, c-format
 msgid "OMF file does not have <resource> element.\n"
 msgstr "OMF 檔案中沒有任何 <resource> 元素。\n"
 
 #: extract/src/scrollkeeper-extract.c:30
+#, c-format
 msgid ""
 "Usage: scrollkeeper-extract <xml file> <stylesheet 1> <output file 1> "
 "<stylesheet 2> <output file 2> ...\n"
@@ -244,766 +251,770 @@ msgid "Unrecognized file type: %s\n"
 msgstr "無法辦認的檔案類型：%s\n"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:1
-msgid "3D Modelling"
-msgstr "3D 模型製作"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:2
-msgid "3D Rendering"
-msgstr "3D Rendering"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:3
-msgid "ADA"
-msgstr "ADA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:4
-msgid "Accessibility"
-msgstr "輔助功能"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:5
-msgid "Accessories"
-msgstr "附屬應用程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:6
-msgid "Administration"
-msgstr "管理"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:7
-msgid "Amusement"
-msgstr "娛樂"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:8
-msgid "Analysis"
-msgstr "分析"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:9
-msgid "AppleTalk"
-msgstr "AppleTalk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:10
-msgid "Applets"
-msgstr "面板程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:11
 msgid "Applications"
 msgstr "應用程式"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:12
-msgid "Arcade"
-msgstr "電子遊戲"
+#: cl/templates/scrollkeeper_cl.xml.in.h:2
+msgid "Amusement"
+msgstr "娛樂"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:13
-msgid "Archiving"
-msgstr "歸檔"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:14
-msgid "Arts"
-msgstr "藝術"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:15
-msgid "Astronomy"
-msgstr "天文學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:16
-msgid "Astrophysics"
-msgstr "天文物理學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:17
-msgid "BIND"
-msgstr "BIND"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:18
-msgid "Backups"
-msgstr "備份"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:19
-msgid "Biology"
-msgstr "生物學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:20
-msgid "Board"
-msgstr "棋類"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:21
-msgid "Build Tools"
-msgstr "編譯工具"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:22
-msgid "C"
-msgstr "C"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:23
-msgid "C++"
-msgstr "C++"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:24
-msgid "CAD"
-msgstr "CAD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:25
-msgid "CD Mastering"
-msgstr "CD 母帶後期處理"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:26
-msgid "CDE"
-msgstr "CDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:27
-msgid "CLI"
-msgstr "文本模式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:28
-msgid "Calculating"
-msgstr "計算"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:29
-msgid "Caldera"
-msgstr "Caldera"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:30
-msgid "Calendar"
-msgstr "日程表"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:31
-msgid "Capture"
-msgstr "擷取"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:32
-msgid "Chat"
-msgstr "交談"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:33
-msgid "Chemistry"
-msgstr "化學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:34
-msgid "Clock"
-msgstr "時鐘"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:35
-msgid "Clocks"
-msgstr "時鐘"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:36
-msgid "Code Generators"
-msgstr "源代碼產生程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:37
-msgid "Compression"
-msgstr "壓縮"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:38
-msgid "Computer Science"
-msgstr "電腦科學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:39
-msgid "Config Files"
-msgstr "組態檔"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:40
-msgid "Configuration"
-msgstr "設定"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:41
-msgid "Configuration Tools"
-msgstr "設定工具"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:42
-msgid "Conversion"
-msgstr "轉換"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:43
-msgid "Core Desktop"
-msgstr "主桌面"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:44
-msgid "Cryptography"
-msgstr "密碼學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:45
-msgid "DNS"
-msgstr "DNS"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:46
-msgid "Data Processing"
-msgstr "資料處理"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:47
-msgid "Database"
-msgstr "資料庫"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:48
-msgid "Databases"
-msgstr "資料庫"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:49
-msgid "Debian"
-msgstr "Debian"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:50
-msgid "Debuggers"
-msgstr "偵錯程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:51
-msgid "Desktop"
-msgstr "桌面"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:52
-msgid "Desktop Preferences"
-msgstr "桌面偏好設定"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:53
-msgid "Development"
-msgstr "程式開發"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:54
-msgid "Development Tools"
-msgstr "程式開發工具"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:55
-msgid "Display"
-msgstr "顯示"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:56
-msgid "Distributions"
-msgstr "發行套件"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:57
-msgid "Drawing"
-msgstr "繪畫"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:58
-msgid "EDA"
-msgstr "EDA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:59
-msgid "Editing"
-msgstr "編輯"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:60
+#: cl/templates/scrollkeeper_cl.xml.in.h:3
 msgid "Education"
 msgstr "教育"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:61
-msgid "Email"
-msgstr "電郵"
+#: cl/templates/scrollkeeper_cl.xml.in.h:4
+msgid "Arts"
+msgstr "藝術"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:62
+#: cl/templates/scrollkeeper_cl.xml.in.h:5
+msgid "Computer Science"
+msgstr "電腦科學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:6
 msgid "English"
 msgstr "英語"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:63
-msgid "Environments"
-msgstr "開發環境"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:64
-msgid "FTP"
-msgstr "FTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:65
-msgid "Fax"
-msgstr "傳真"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:66
-msgid "Fighting"
-msgstr "格鬥"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:67
-msgid "File Sharing"
-msgstr "檔案分享"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:68
-msgid "File Utilities"
-msgstr "檔案公用程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:69
-msgid "Filesystems"
-msgstr "檔案系統"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:70
-msgid "Financial"
-msgstr "財務"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:71
-msgid "Firewall"
-msgstr "防火牆"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:72
-msgid "First Person Shooters"
-msgstr "第一身射擊遊戲"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:73
-msgid "Fonts"
-msgstr "字型"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:74
-msgid "FreeBSD"
-msgstr "FreeBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:75
-msgid "GNOME"
-msgstr "GNOME"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:76
-msgid "GTK+"
-msgstr "GTK+"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:77
-msgid "GUI"
-msgstr "圖形界面"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:78
-msgid "Games"
-msgstr "遊戲"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:79
-msgid "General"
-msgstr "一般"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:80
-msgid "Genetics"
-msgstr "遺傳學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:81
-msgid "Graphics"
-msgstr "圖形"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:82
-msgid "HTTP"
-msgstr "HTTP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:83
-msgid "Hardware"
-msgstr "硬體"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:84
-msgid "IDEs"
-msgstr "整合開發環境"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:85
-msgid "Input Devices"
-msgstr "輸入裝置"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:86
-msgid "Internet"
-msgstr "網際網路"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:87
-msgid "Internet Phone"
-msgstr "網路電話"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:88
-msgid "Introductory"
-msgstr "入門"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:89
-msgid "Intrusion Detection"
-msgstr "入侵偵測系統"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:90
-msgid "Java"
-msgstr "Java"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:91
-msgid "KDE"
-msgstr "KDE"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:92
-msgid "Kernels"
-msgstr "核心"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:93
+#: cl/templates/scrollkeeper_cl.xml.in.h:7
 msgid "Language"
 msgstr "語言"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:94
-msgid "Libraries"
-msgstr "函式庫"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:95
-msgid "Licenses"
-msgstr "使用條款"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:96
-msgid "Linux"
-msgstr "Linux"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:97
-msgid "Local"
-msgstr "本機"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:98
-msgid "Login Managers"
-msgstr "登入管理程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:99
-msgid "MIDI"
-msgstr "MIDI"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:100
-msgid "Mandrake"
-msgstr "Mandrake"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:101
-msgid "Math"
-msgstr "數學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:102
+#: cl/templates/scrollkeeper_cl.xml.in.h:8
 msgid "Maths"
 msgstr "數學"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:103
-msgid "Messaging"
-msgstr "即時通訊"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:104
-msgid "Mixers"
-msgstr "混音程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:105
-msgid "Monitors"
-msgstr "監控"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:106
-msgid "Multimedia"
-msgstr "多媒體"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:107
+#: cl/templates/scrollkeeper_cl.xml.in.h:9
 msgid "Music"
 msgstr "音樂"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:108
-msgid "NetBSD"
-msgstr "NetBSD"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:109
-msgid "Network"
-msgstr "網路"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:110
-msgid "Networking"
-msgstr "網路"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:111
-msgid "News"
-msgstr "新聞"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:112
-msgid "Office"
-msgstr "辦公"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:113
-msgid "Other"
-msgstr "其它"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:114
-msgid "PCI/ISA/PCMCIA"
-msgstr "PCI/ISA/PCMCIA"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:115
-msgid "PIM"
-msgstr "個人資料管理"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:116
-msgid "PPP"
-msgstr "PPP"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:117
-msgid "Package Management"
-msgstr "套件管理"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:118
-msgid "Packaging"
-msgstr "軟件包裝"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:119
-msgid "Perl"
-msgstr "Perl"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:120
-msgid "Physics"
-msgstr "物理學"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:121
-msgid "Players"
-msgstr "播放程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:122
-msgid "Plotting"
-msgstr "座標繪圖"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:123
-msgid "Preferences"
-msgstr "偏好設定"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:124
-msgid "Presentation"
-msgstr "簡報程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:125
-msgid "Printing"
-msgstr "列印"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:126
-msgid "Processor"
-msgstr "處理器"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:127
-msgid "Profiling"
-msgstr "效率測試"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:128
-msgid "Programming"
-msgstr "程式編寫"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:129
-msgid "Programs"
-msgstr "程式"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:130
-msgid "Publishing"
-msgstr "出版"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:131
-msgid "Puzzles"
-msgstr "智力遊戲"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:132
-msgid "Python"
-msgstr "Python"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:133
-msgid "Qt"
-msgstr "Qt"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:134
-msgid "RAD"
-msgstr "快速軟件開發"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:135
-msgid "Recording"
-msgstr "錄音"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:136
-msgid "Red Flag"
-msgstr "紅旗"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:137
-msgid "Red Hat"
-msgstr "Red Hat"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:138
-msgid "Remote"
-msgstr "遠端"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:139
-msgid "Role-Playing"
-msgstr "角色扮演"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:140
-msgid "SMB"
-msgstr "SMB"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:141
-msgid "SSH"
-msgstr "SSH"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:142
+#: cl/templates/scrollkeeper_cl.xml.in.h:10
 msgid "Science"
 msgstr "科學"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:143
-msgid "Scientific"
-msgstr "科學"
+#: cl/templates/scrollkeeper_cl.xml.in.h:11
+msgid "Technology"
+msgstr "科技"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:144
-msgid "Screensavers"
-msgstr "螢幕保護程式"
+#: cl/templates/scrollkeeper_cl.xml.in.h:12
+msgid "Testing"
+msgstr "測驗"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:145
-msgid "Security"
-msgstr "保安"
+#: cl/templates/scrollkeeper_cl.xml.in.h:13
+msgid "Other"
+msgstr "其它"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:146
-msgid "Services"
-msgstr "服務"
+#: cl/templates/scrollkeeper_cl.xml.in.h:14
+msgid "Games"
+msgstr "遊戲"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:147
-msgid "Settings"
-msgstr "設定"
+#: cl/templates/scrollkeeper_cl.xml.in.h:15
+msgid "Arcade"
+msgstr "電子遊戲"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:148
+#: cl/templates/scrollkeeper_cl.xml.in.h:16
+msgid "Board"
+msgstr "棋類"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:17
+msgid "First Person Shooters"
+msgstr "第一身射擊遊戲"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:18
+msgid "Puzzles"
+msgstr "智力遊戲"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:19
+msgid "Fighting"
+msgstr "格鬥"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:20
+msgid "Role-Playing"
+msgstr "角色扮演"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:21
 msgid "Simulation"
 msgstr "模擬"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:149
-msgid "Slackware"
-msgstr "Slackware"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:150
-msgid "Sound"
-msgstr "音效"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:151
-msgid "Sound and Video"
-msgstr "影音"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:152
-msgid "Speech"
-msgstr "語音"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:153
-msgid "Storage"
-msgstr "儲存裝置"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:154
+#: cl/templates/scrollkeeper_cl.xml.in.h:22
 msgid "Strategy"
 msgstr "策略"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:155
+#: cl/templates/scrollkeeper_cl.xml.in.h:23
+msgid "Internet"
+msgstr "網際網路"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:24
+msgid "Chat"
+msgstr "交談"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:25
+msgid "Email"
+msgstr "電郵"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:26
+msgid "Fax"
+msgstr "傳真"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:27
+msgid "File Sharing"
+msgstr "檔案分享"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:28
+msgid "FTP"
+msgstr "FTP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:29
+msgid "Internet Phone"
+msgstr "網路電話"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:30
+msgid "Messaging"
+msgstr "即時通訊"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:31
+msgid "News"
+msgstr "新聞"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:32
+msgid "Video Conferencing"
+msgstr "視像會議"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:33
+msgid "Web"
+msgstr "網頁"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:34
+msgid "Multimedia"
+msgstr "多媒體"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:35
+msgid "Graphics"
+msgstr "圖形"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:36
+msgid "3D Modelling"
+msgstr "3D 模型製作"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:37
+msgid "3D Rendering"
+msgstr "3D Rendering"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:38
+msgid "CAD"
+msgstr "CAD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:39
+msgid "Capture"
+msgstr "擷取"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:40
+msgid "Conversion"
+msgstr "轉換"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:41
+msgid "Drawing"
+msgstr "繪畫"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:42
+msgid "Editing"
+msgstr "編輯"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:43
+msgid "Viewing"
+msgstr "瀏覽"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:44
+msgid "Sound"
+msgstr "音效"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:45
+msgid "Analysis"
+msgstr "分析"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:46
+msgid "CD Mastering"
+msgstr "CD 母帶後期處理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:47
+msgid "MIDI"
+msgstr "MIDI"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:48
+msgid "Mixers"
+msgstr "混音程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:49
+msgid "Players"
+msgstr "播放程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:50
+msgid "Recording"
+msgstr "錄音"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:51
+msgid "Speech"
+msgstr "語音"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:52
+msgid "Video"
+msgstr "視像"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:53
+msgid "Display"
+msgstr "顯示"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:54
+msgid "Office"
+msgstr "辦公"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:55
+msgid "Calendar"
+msgstr "日程表"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:56
+msgid "Data Processing"
+msgstr "資料處理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:57
+msgid "Database"
+msgstr "資料庫"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:58
+msgid "Financial"
+msgstr "財務"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:59
+msgid "PIM"
+msgstr "個人資料管理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:60
+msgid "Plotting"
+msgstr "座標繪圖"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:61
+msgid "Presentation"
+msgstr "簡報程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:62
+msgid "Publishing"
+msgstr "出版"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:63
+msgid "Web Publishing"
+msgstr "網頁出版"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:64
+msgid "Word Processing"
+msgstr "文字處理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:65
+msgid "Scientific"
+msgstr "科學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:66
+msgid "Astronomy"
+msgstr "天文學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:67
+msgid "Astrophysics"
+msgstr "天文物理學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:68
+msgid "Biology"
+msgstr "生物學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:69
+msgid "Chemistry"
+msgstr "化學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:70
+msgid "EDA"
+msgstr "EDA"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:71
+msgid "Genetics"
+msgstr "遺傳學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:72
+msgid "Math"
+msgstr "數學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:73
+msgid "Physics"
+msgstr "物理學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:74
+msgid "Visualisation"
+msgstr "資料呈現系統"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:75
+msgid "Security"
+msgstr "保安"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:76
+msgid "Cryptography"
+msgstr "密碼學"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:77
+msgid "Text Editors"
+msgstr "文字編輯器"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:78
+msgid "CLI"
+msgstr "文本模式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:79
+msgid "GUI"
+msgstr "圖形界面"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:80
+msgid "Utilities"
+msgstr "公用程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:81
+msgid "Archiving"
+msgstr "歸檔"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:82
+msgid "Calculating"
+msgstr "計算"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:83
+msgid "Clocks"
+msgstr "時鐘"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:84
+msgid "Compression"
+msgstr "壓縮"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:85
+msgid "File Utilities"
+msgstr "檔案公用程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:86
+msgid "Monitors"
+msgstr "監控"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:87
+msgid "Printing"
+msgstr "列印"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:88
+msgid "Terminals"
+msgstr "終端機"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:89
+msgid "Text Utilities"
+msgstr "文字公用程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:90
+msgid "X"
+msgstr "X"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:91
+msgid "Configuration"
+msgstr "設定"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:92
+msgid "Fonts"
+msgstr "字型"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:93
+msgid "Login Managers"
+msgstr "登入管理程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:94
+msgid "Screensavers"
+msgstr "螢幕保護程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:95
+msgid "Window Managers"
+msgstr "視窗管理程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:96
+msgid "CDE"
+msgstr "CDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:97
+msgid "Development"
+msgstr "程式開發"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:98
+msgid "Databases"
+msgstr "資料庫"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:99
+msgid "Development Tools"
+msgstr "程式開發工具"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:100
+msgid "Build Tools"
+msgstr "編譯工具"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:101
+msgid "Code Generators"
+msgstr "源代碼產生程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:102
+msgid "Debuggers"
+msgstr "偵錯程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:103
+msgid "IDEs"
+msgstr "整合開發環境"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:104
+msgid "Packaging"
+msgstr "軟件包裝"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:105
+msgid "Profiling"
+msgstr "效率測試"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:106
+msgid "RAD"
+msgstr "快速軟件開發"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:107
+msgid "Version Control"
+msgstr "版本控制"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:108
+msgid "Environments"
+msgstr "開發環境"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:109
+msgid "ADA"
+msgstr "ADA"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:110
+msgid "C"
+msgstr "C"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:111
+msgid "C++"
+msgstr "C++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:112
+msgid "GNOME"
+msgstr "GNOME"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:113
+msgid "GTK+"
+msgstr "GTK+"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:114
+msgid "gtk++"
+msgstr "gtk++"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:115
+msgid "Java"
+msgstr "Java"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:116
+msgid "KDE"
+msgstr "KDE"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:117
+msgid "Perl"
+msgstr "Perl"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:118
+msgid "Python"
+msgstr "Python"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:119
+msgid "Qt"
+msgstr "Qt"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:120
+msgid "Tcl/Tk"
+msgstr "Tcl/Tk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:121
+msgid "WebML"
+msgstr "WebML"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:122
+msgid "Kernels"
+msgstr "核心"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:123
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:124
+msgid "Linux"
+msgstr "Linux"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:125
+msgid "NetBSD"
+msgstr "NetBSD"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:126
+msgid "Libraries"
+msgstr "函式庫"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:127
+msgid "System Calls"
+msgstr "系統呼叫函式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:128
+msgid "General"
+msgstr "一般"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:129
+msgid "Licenses"
+msgstr "使用條款"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:130
+msgid "Distributions"
+msgstr "發行套件"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:131
+msgid "Caldera"
+msgstr "Caldera"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:132
+msgid "Debian"
+msgstr "Debian"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:133
+msgid "Mandrake"
+msgstr "Mandrake"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:134
+msgid "Red Flag"
+msgstr "紅旗"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:135
+msgid "Red Hat"
+msgstr "Red Hat"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:136
+msgid "Slackware"
+msgstr "Slackware"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:137
 msgid "SuSE"
 msgstr "SuSE"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:138
+msgid "Accessibility"
+msgstr "輔助功能"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:139
+msgid "Core Desktop"
+msgstr "主桌面"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:140
+msgid "Desktop"
+msgstr "桌面"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:141
+msgid "User Guides"
+msgstr "使用指南"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:142
+msgid "Applets"
+msgstr "面板程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:143
+msgid "Accessories"
+msgstr "附屬應用程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:144
+msgid "Clock"
+msgstr "時鐘"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:145
+msgid "Network"
+msgstr "網路"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:146
+msgid "Utility"
+msgstr "公用程式"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:147
+msgid "Desktop Preferences"
+msgstr "桌面偏好設定"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:148
+msgid "Programming"
+msgstr "程式編寫"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:149
+msgid "Sound and Video"
+msgstr "影音"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:150
+msgid "System Tools"
+msgstr "系統工具"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:151
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:152
+msgid "System Administration"
+msgstr "系統管理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:153
+msgid "Introductory"
+msgstr "入門"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:154
+msgid "Tutorials"
+msgstr "指導"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:155
+msgid "White Papers"
+msgstr "白皮書"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:156
-msgid "Syslog"
-msgstr "系統紀錄"
+msgid "Settings"
+msgstr "設定"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:157
 msgid "System"
 msgstr "系統"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:158
-msgid "System Administration"
-msgstr "系統管理"
+msgid "Programs"
+msgstr "程式"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:159
-msgid "System Calls"
-msgstr "系統呼叫函式"
+msgid "Administration"
+msgstr "管理"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:160
-msgid "System Tools"
-msgstr "系統工具"
+msgid "Backups"
+msgstr "備份"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:161
+msgid "Local"
+msgstr "本機"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:162
+msgid "Remote"
+msgstr "遠端"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:163
+msgid "Filesystems"
+msgstr "檔案系統"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:164
+msgid "Networking"
+msgstr "網路"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:165
+msgid "AppleTalk"
+msgstr "AppleTalk"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:166
+msgid "PPP"
+msgstr "PPP"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:167
+msgid "SMB"
+msgstr "SMB"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:168
 msgid "TCP/IP"
 msgstr "TCP/IP"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:162
-msgid "Tcl/Tk"
-msgstr "Tcl/Tk"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:163
-msgid "Technology"
-msgstr "科技"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:164
-msgid "Telnet"
-msgstr "Telnet"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:165
-msgid "Terminals"
-msgstr "終端機"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:166
-msgid "Testing"
-msgstr "測驗"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:167
-msgid "Text Editors"
-msgstr "文字編輯器"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:168
-msgid "Text Utilities"
-msgstr "文字公用程式"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:169
-msgid "Tutorials"
-msgstr "指導"
+msgid "DNS"
+msgstr "DNS"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:170
-msgid "User Guides"
-msgstr "使用指南"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:171
 msgid "Users"
 msgstr "使用者"
 
+#: cl/templates/scrollkeeper_cl.xml.in.h:171
+msgid "Config Files"
+msgstr "組態檔"
+
 #: cl/templates/scrollkeeper_cl.xml.in.h:172
-msgid "Utilities"
-msgstr "公用程式"
+msgid "Configuration Tools"
+msgstr "設定工具"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:173
-msgid "Utility"
-msgstr "公用程式"
+msgid "Hardware"
+msgstr "硬體"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:174
-msgid "Version Control"
-msgstr "版本控制"
+msgid "Processor"
+msgstr "處理器"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:175
-msgid "Video"
-msgstr "視像"
+msgid "Storage"
+msgstr "儲存裝置"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:176
-msgid "Video Conferencing"
-msgstr "視像會議"
+msgid "Input Devices"
+msgstr "輸入裝置"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:177
-msgid "Viewing"
-msgstr "瀏覽"
+msgid "PCI/ISA/PCMCIA"
+msgstr "PCI/ISA/PCMCIA"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:178
+msgid "Package Management"
+msgstr "套件管理"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:179
+msgid "Firewall"
+msgstr "防火牆"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:180
+msgid "Intrusion Detection"
+msgstr "入侵偵測系統"
+
+#: cl/templates/scrollkeeper_cl.xml.in.h:181
 msgid "Virus"
 msgstr "病毒"
 
-#: cl/templates/scrollkeeper_cl.xml.in.h:179
-msgid "Visualisation"
-msgstr "資料呈現系統"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:180
-msgid "Web"
-msgstr "網頁"
-
-#: cl/templates/scrollkeeper_cl.xml.in.h:181
-msgid "Web Publishing"
-msgstr "網頁出版"
-
 #: cl/templates/scrollkeeper_cl.xml.in.h:182
-msgid "WebML"
-msgstr "WebML"
+msgid "Services"
+msgstr "服務"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:183
-msgid "White Papers"
-msgstr "白皮書"
+msgid "HTTP"
+msgstr "HTTP"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:184
-msgid "Window Managers"
-msgstr "視窗管理程式"
+msgid "SSH"
+msgstr "SSH"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:185
-msgid "Word Processing"
-msgstr "文字處理"
+msgid "Telnet"
+msgstr "Telnet"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:186
-msgid "X"
-msgstr "X"
+msgid "Syslog"
+msgstr "系統紀錄"
 
 #: cl/templates/scrollkeeper_cl.xml.in.h:187
-msgid "gtk++"
-msgstr "gtk++"
+msgid "BIND"
+msgstr "BIND"
 
 #: buildtools/separate.c:63 buildtools/separate.c:75 buildtools/separate.c:88
+#, c-format
 msgid "Invalid category file.\n"
 msgstr "無效的分類檔案。\n"
 
 #: buildtools/separate.c:298
+#, c-format
 msgid "Usage: scrollkeeper-tree-separate <tree file> <output directory>\n"
 msgstr "用法：scrollkeeper-tree-separate <結構樹檔案> <輸出目錄>\n"
 
 #: buildtools/separate.c:320
+#, c-format
 msgid "File does not contain well-formed XML\n"
 msgstr "檔案中的 XML 結構不正確\n"
 
 #: buildtools/separate.c:325
+#, c-format
 msgid "tree separation failed\n"
 msgstr "分離結構樹時發生錯誤\n"
 
@@ -1018,6 +1029,7 @@ msgid "Creating localized category file: %s\n"
 msgstr "正在產生本地化的分類檔案：%s\n"
 
 #: buildtools/separate.c:348
+#, c-format
 msgid "Unable to create all localized category files.\n"
 msgstr "無法產生所有本地化的分類檔案。\n"
 
